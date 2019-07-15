@@ -1,0 +1,14 @@
+@import url("bootstrap.css");
+#gauche, #droite {
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#droite {
+  right: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

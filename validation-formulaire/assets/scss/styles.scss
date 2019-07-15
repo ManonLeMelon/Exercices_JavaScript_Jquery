@@ -1,0 +1,23 @@
+// Imports scss
+@import "variables";
+
+// Imports css
+@import url("bootstrap.css");
+
+%fleches{
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+
+#gauche{
+    @extend %fleches;
+}
+
+#droite{
+    @extend %fleches;
+    right: 15px;
+}

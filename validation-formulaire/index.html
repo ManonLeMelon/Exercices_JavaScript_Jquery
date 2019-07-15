@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Document</title>
+
+		<!-- Fichiers CSS -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+	</head>
+	<body>
+		<main class="container">
+			<section class="row">
+				<div class="col-12">
+					<h1>Inscription</h1>
+					<form action="#" method="post">
+						<div class="form-group">
+							<label for="pseudo">Pseudo</label>
+							<input type="text" name="pseudo" id="pseudo" class="form-control">
+							<div class="valid-feedback"> 
+								Le pseudo est correcte
+							</div>
+							<div class="invalid-feedback"> 
+								Le pseudo est incorrecte, il faut au minimum 6 caractères
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">E-mail</label>
+							<input type="email" name="email" id="email" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="email2">Confirmation e-mail</label>
+							<input type="email" name="email2" id="email2" class="form-control">
+							<div class="valid-feedback"> 
+								L'e-mail est identiques 
+							</div>
+							<div class="invalid-feedback"> 
+								L'e-mail n'est pas identiques 
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="pass">Mot de passe</label>
+							<input type="password" name="pass" id="pass" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="pass2">Confirmation mot de passe</label>
+							<input type="password" name="pass2" id="pass2" class="form-control">
+							<div class="valid-feedback"> 
+								Les mots de passe sont identiques  
+							</div>
+							<div class="invalid-feedback"> 
+								Les mots de passe ne sont pas identiques
+							</div>
+						</div>
+							<button id="valid" class="btn btn-primary">Valider</button>
+
+					</form>
+				</div> <!-- /col-12 -->
+			</section> <!-- /row -->
+		</main> <!-- /container -->
+
+
+		<!-- Fichiers JS -->
+		<script src="assets/js/scripts2.js"></script>
+	</body>
+</html>
